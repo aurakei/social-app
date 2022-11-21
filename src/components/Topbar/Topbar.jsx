@@ -1,6 +1,6 @@
 
 import "./topbar.css"; 
-import { FaSearch } from "react-icons/fa"
+import { FaSistrix, FaUser, FaComments, FaFlag } from "react-icons/fa"
 
 // import { Search, Person, Chat, Notifications} from "@mui/icons-material"
 
@@ -12,8 +12,7 @@ export default function Topbar() {
         </div>
         <div className="topbarCenter">
           <div className="searchbar">
-          <FaSearch />
-            {/* <SearchIcon className="searchIcon" /> */}
+          <FaSistrix className="searchIcon"/>
             <input placeholder="search for friends, posts, or any video" className="searchInput" />
           </div>
         </div>
@@ -24,17 +23,17 @@ export default function Topbar() {
           </div>
           <div className="topbarIcons">
             <div className="topbarIconItem">
-              {/* <Person /> */}
+              <FaUser />
               <span className="topbarIconBadge">1</span>
             </div>
 
             <div className="topbarIconItem">
-              {/* <Chat /> */}
+              <FaComments />
               <span className="topbarIconBadge">2</span>
             </div>
 
             <div className="topbarIconItem">
-              {/* <Notifications /> */}
+              <FaFlag />
               <span className="topbarIconBadge">1</span>
             </div>
           </div>
