@@ -1,4 +1,7 @@
-import "./topbar.css";
+
+import "./topbar.css"; 
+import { FaSearch } from "react-icons/fa"
+
 // import { Search, Person, Chat, Notifications} from "@mui/icons-material"
 
 export default function Topbar() {
@@ -9,7 +12,8 @@ export default function Topbar() {
         </div>
         <div className="topbarCenter">
           <div className="searchbar">
-            {/* <Search className="searchIcon" /> */}
+          <FaSearch />
+            {/* <SearchIcon className="searchIcon" /> */}
             <input placeholder="search for friends, posts, or any video" className="searchInput" />
           </div>
         </div>

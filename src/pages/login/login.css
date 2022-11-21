@@ -22,7 +22,7 @@
 .loginLogo{
     font-style: 50px;
     font-weight: 800;
-    color: #1775ee;
+    color: blueviolet;
     margin-bottom: 10px;
 }
 .loginDesc{
@@ -30,7 +30,8 @@
 }
 
 .loginBox{
-    height: 300px;padding: 20px;
+    height: 300px;
+    padding: 20px;
     background-color: #fff;
     border-radius: 10px;
     display: flex;
@@ -51,7 +52,7 @@
     height: 50px;
     border-radius: 10px;
     border: none;
-    background-color: blue;
+    background-color: blueviolet;
     color: white;
     font-style: 20px;
     font-weight: 500;
