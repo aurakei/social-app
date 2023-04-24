@@ -1,6 +1,6 @@
 A social media app.
 Target is the complete MERN stack.
-// Under development with regular updates.
+// Under development 
 
 # Getting Started with Create React App
 
