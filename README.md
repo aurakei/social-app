@@ -1,4 +1,5 @@
 A social media app.
+Working on the chat side of the app
 Target is the complete MERN stack.
 // Under development 
 
