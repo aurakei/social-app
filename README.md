@@ -7,7 +7,7 @@ Target is the complete MERN stack.
 
 Used socket.io for the live communication.
 
-Regular improvements and updates
+Regular improvements and updates.
 
 // Under development.
 
