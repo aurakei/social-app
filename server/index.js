@@ -19,6 +19,7 @@ app.post("/users", async(req, res)=>{
 })
 
 //get all users
+app.get('/users',async(req,res)=>{})
 
 //get a single user
 
