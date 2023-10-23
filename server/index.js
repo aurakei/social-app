@@ -22,10 +22,13 @@ app.post("/users", async(req, res)=>{
 app.get('/users',async(req,res)=>{})
 
 //get a single user
+app.get('/user/:id',async(req,res)=>{})
 
 //update a users
+app.patch('/user/:id',async(req,res)=>{})
 
 //delete a user
+app.delete('/user/:id',async(req,res)=>{})
 
 //start the server.
 app.listen(5432, () => {
