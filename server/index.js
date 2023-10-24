@@ -11,10 +11,20 @@ app.use(express.json());
 
 //create a user
 app.post("/users", async(req, res)=>{
+    const {first_name, last_name, email, password } = req.body;
+
+    const hashedPassword = await hashPassword(password);
+
+    
     try {
-        console.log(req.body)
+        const query = 'INSERT INTO users (first_name,last_name, email, password) VALUES ($1, $2, $3, $4)';
+        const values = [first_name, last_name, email, hashedPassword];
+        await pool.query(query, values);
+    
+        res.status(201).send('User registered successfully.');
     } catch (error) {
-        console.log(error.message)
+        console.error('Error during user registration:', error);
+        res.status(500).send('Error registering user.');
     }
 })
 
