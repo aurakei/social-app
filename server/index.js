@@ -11,14 +11,18 @@ app.use(express.json());
 
 //create a user
 app.post("/users", async(req, res)=>{
-    const {first_name, last_name, email, password } = req.body;
+    const {firstname, lastname, username, email, password, bio, location, dateOfBirth, confirmPassword } = req.body;
+    //confirm if the passwords are matching
+    if(password !== confirmPassword){
+        return res.status(400).send('Passwords do not match');
+  }
 
     const hashedPassword = await hashPassword(password);
 
     
     try {
-        const query = 'INSERT INTO users (first_name,last_name, email, password) VALUES ($1, $2, $3, $4)';
-        const values = [first_name, last_name, email, hashedPassword];
+        const query = 'INSERT INTO users (first_name, last_name, user_name, email, password, bio, location, date_of_birth) VALUES ($1, $2, $3, $4)';
+        const values = [firstname, lastname, username, email, hashedPassword, bio, location, dateOfBirth ];
         await pool.query(query, values);
     
         res.status(201).send('User registered successfully.');

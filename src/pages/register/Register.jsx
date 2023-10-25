@@ -2,6 +2,7 @@ import "./register.css"
 
 export default function Register() {
   return (
+    <form action="./server/users" method="post">
     <div className="login">
         <div className="loginWrapper">
             <div className="loginLeft">
@@ -10,15 +11,22 @@ export default function Register() {
             </div>
             <div className="loginRight">
                 <div className="loginBox">
-                <input placeholder="username" className="loginInput" />
-                    <input placeholder="email" className="loginInput" />
-                    <input placeholder="password" className="loginInput" />
-                    <input placeholder="confirm password" className="loginInput" />
-                    <button className="loginButton">Sign Up</button>
+                <input placeholder="first Name" name="firstname" className="loginInput" required />
+                <input placeholder="last Name" name="lastname" className="loginInput" required />
+                <input placeholder="username" name="username" className="loginInput" required />
+                <input placeholder="email" name="email" className="loginInput" required />
+                <input placeholder="password" type="password" name="password" className="loginInput" required/>
+                <input placeholder="confirm password" type="password" name="confirmPassword" className="loginInput" required/>
+                <input placeholder="bio" name="bio" type="text" className="loginInput" required/>
+                <input placeholder="location" name="location" type="text" className="loginInput" required/>
+                <input placeholder="date of birth" name="dateOfBirth" type="date" className="loginInput" required/>
+
+                    <button type="submit" className="loginButton">Sign Up</button>
                     <button className="loginRegisterButton">Login into ya' Account</button>
                 </div>
             </div>
         </div>
     </div>
+    </form>
   )
 }
