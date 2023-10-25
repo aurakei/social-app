@@ -2,7 +2,7 @@ import "./register.css"
 
 export default function Register() {
   return (
-    <form action="./server/users" method="post">
+    <form action="/users" method="post">
     <div className="login">
         <div className="loginWrapper">
             <div className="loginLeft">
