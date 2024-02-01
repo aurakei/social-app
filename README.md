@@ -33,7 +33,7 @@ Installation
 Clone the repository:
 
 ---
-Copy code
+
 git clone https://github.com/yourusername/social-app.git
 
 Navigate to the project directory:
