@@ -10,10 +10,16 @@ Table of Contents
     .Installation
 
   2. Features
+     
   3. Usage
+     
   4 .Screenshots
+  
   5. Contributing
-  7. License
+     
+  6. License
+
+     
 Getting Started
 
 Prerequisites
