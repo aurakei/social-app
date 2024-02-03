@@ -41,6 +41,7 @@ Navigate to the project directory:
 
 Copy code
 cd social-app
+
 Install dependencies:
 
 
