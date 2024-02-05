@@ -39,7 +39,7 @@ git clone https://github.com/yourusername/social-app.git
 Navigate to the project directory:
 
 
-Copy code
+clone code
 cd social-app
 
 Install dependencies:
