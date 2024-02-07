@@ -55,11 +55,18 @@ npm start
 Now your Social App should be up and running!
 
 Features
+
 Our Social App comes with a range of exciting features:
 
-User Registration: Create an account with your unique username and email.
-Chat: Instantly connect with friends and other users via real-time chat.
-Friend Requests: Send and accept friend requests to build your network.
+User Registration:
+
+Create an account with your unique username and email.
+Chat:
+
+Instantly connect with friends and other users via real-time chat.
+Friend Requests:
+
+Send and accept friend requests to build your network.
 User Profiles: Personalize your profile with profile pictures and status updates.
 Image Sharing: Share images with your friends and followers.
 Feed: View a personalized feed of posts from friends you follow.
