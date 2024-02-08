@@ -67,13 +67,17 @@ Instantly connect with friends and other users via real-time chat.
 Friend Requests:
 
 Send and accept friend requests to build your network.
+
 User Profiles: 
 
 Personalize your profile with profile pictures and status updates.
 Image Sharing: 
 
 Share images with your friends and followers.
-Feed: View a personalized feed of posts from friends you follow.
+
+Feed: 
+
+View a personalized feed of posts from friends you follow.
 Notifications: Receive alerts for new friend requests, messages, and more.
 Usage
 User Registration: Sign up for an account by providing your username and email.
