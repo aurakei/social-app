@@ -83,7 +83,10 @@ Notifications: Receive alerts for new friend requests, messages, and more.
 Usage
 
 User Registration: Sign up for an account by providing your username and email.
-Chat: Start chatting with friends and other users in real-time.
+
+Chat: 
+
+Start chatting with friends and other users in real-time.
 Friend Requests: Send or accept friend requests from other users.
 User Profiles: Customize your profile by adding a profile picture and status.
 Image Sharing: Share your favorite images with your followers.
