@@ -93,6 +93,7 @@ Image Sharing: Share your favorite images with your followers.
 Feed: Stay updated with posts from friends you follow.
 Notifications: Receive real-time notifications about your social activity.
 Screenshots
+
 Include screenshots or images of your application to give users a visual representation of your app's interface. You can create a screenshots directory in your project and place your images there. Be sure to provide descriptive captions for each screenshot.
 
 Contributing
