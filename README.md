@@ -64,6 +64,7 @@ Create an account with your unique username and email.
 Chat:
 
 Instantly connect with friends and other users via real-time chat.
+
 Friend Requests:
 
 Send and accept friend requests to build your network.
@@ -71,6 +72,7 @@ Send and accept friend requests to build your network.
 User Profiles: 
 
 Personalize your profile with profile pictures and status updates.
+
 Image Sharing: 
 
 Share images with your friends and followers.
