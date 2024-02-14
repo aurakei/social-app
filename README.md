@@ -1,4 +1,4 @@
-# social-app
+de# social-app
 Welcome to the Social App! Our platform is designed to connect people, allowing users to chat, follow friends, and share images with ease.
 
 Table of Contents
@@ -80,7 +80,10 @@ Share images with your friends and followers.
 Feed: 
 
 View a personalized feed of posts from friends you follow.
-Notifications: Receive alerts for new friend requests, messages, and more.
+
+Notifications: 
+
+Receive alerts for new friend requests, messages, and more.
 
 Usage
 
