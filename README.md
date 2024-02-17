@@ -1,4 +1,4 @@
-de# social-app
+the social-app
 Welcome to the Social App! Our platform is designed to connect people, allowing users to chat, follow friends, and share images with ease.
 
 Table of Contents
